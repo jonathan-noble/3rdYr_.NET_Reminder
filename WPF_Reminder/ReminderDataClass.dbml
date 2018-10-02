@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ReminderDatabase" Class="ReminderDataClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MAJNOON\SQLEXPRESS;Initial Catalog=ReminderDatabase;Integrated Security=True" SettingsObjectName="WPF_Reminder.Properties.Settings" SettingsPropertyName="ReminderDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.NoteTable" Member="NoteTables">
+    <Type Name="NoteTable">
+      <Column Name="NoteID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NoteTitle" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

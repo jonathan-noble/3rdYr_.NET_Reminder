@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Reminder", "WPF_Reminder\WPF_Reminder.csproj", "{FEBE7956-1C8A-46EA-BD2D-5247CAD2E820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder_UnitTest", "Reminder_UnitTest\Reminder_UnitTest.csproj", "{952EA737-6113-484B-8B21-AC2B01096373}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEBE7956-1C8A-46EA-BD2D-5247CAD2E820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBE7956-1C8A-46EA-BD2D-5247CAD2E820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBE7956-1C8A-46EA-BD2D-5247CAD2E820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBE7956-1C8A-46EA-BD2D-5247CAD2E820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952EA737-6113-484B-8B21-AC2B01096373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952EA737-6113-484B-8B21-AC2B01096373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952EA737-6113-484B-8B21-AC2B01096373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952EA737-6113-484B-8B21-AC2B01096373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6DA7741-A5FF-4049-86F8-20811AAB9606}
+	EndGlobalSection
+EndGlobal
